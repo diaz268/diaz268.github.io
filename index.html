@@ -348,7 +348,7 @@
 
     <div class="projects-list">
 
-      <!-- NEW: Emotet + Qakbot — LEAD CARD -->
+      <!-- Emotet + Qakbot — LEAD CARD -->
       <div class="project-row soc reveal" style="border-color: rgba(78,205,196,0.22); box-shadow: 0 0 0 1px rgba(78,205,196,0.06);">
         <div class="proj-num">01</div>
         <div class="proj-body">
@@ -356,7 +356,7 @@
           <p class="proj-desc">Analyzed real-world malware PCAPs for Emotet and Qakbot infections. Traced C2 communication through TLS handshake analysis, confirmed payload delivery, and extracted IOCs. Managed the full incident lifecycle in Jira — from detection through investigation to mitigation — with linked and closed tickets documenting each stage of response.</p>
           <div class="proj-chips"><span class="chip teal">Wireshark</span><span class="chip teal">Jira</span><span class="chip teal">PCAP Analysis</span><span class="chip mute">Kali Linux</span><span class="chip lav">Threat Detection</span><span class="chip lav">Incident Response</span></div>
         </div>
-        <a class="proj-link" href="#" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/Jira_Emotet-Qakbot_Report.pdf" target="_blank">View Report →</a>
       </div>
 
       <div class="project-row soc reveal">
@@ -366,7 +366,7 @@
           <p class="proj-desc">Set up an isolated multi-VM environment (Kali Linux as attacker, Ubuntu as target) using VMware. Used hping3 to simulate SYN flood, ICMP flood, UDP flood, and FIN scan attacks, then captured and analyzed all traffic using Wireshark and tcpdump. Performed deep packet analysis — protocol hierarchy, IO graphs, TCP conversation analysis — to distinguish malicious from normal traffic and extract key detection features.</p>
           <div class="proj-chips"><span class="chip teal">hping3</span><span class="chip teal">Wireshark</span><span class="chip teal">tcpdump</span><span class="chip mute">Kali Linux</span><span class="chip mute">VMware</span></div>
         </div>
-        <a class="proj-link" href="https://diaz268.github.io/dos-ddos-attack-simulation.pdf" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/DoS_and_DDoS_Attack_Simulation.pdf" target="_blank">View Report →</a>
       </div>
 
       <div class="project-row soc reveal">
@@ -376,7 +376,7 @@
           <p class="proj-desc">Conducted network reconnaissance against a Windows target in an isolated VM lab. Performed a full suite of Nmap scans — ping sweep, TCP connect, SYN stealth, OS fingerprinting, service version detection, aggressive scan, and NSE vulnerability scripts. Encountered and resolved a real-world scenario where Windows blocked ICMP probes using host-discovery bypass, then correlated all scan traffic in Wireshark.</p>
           <div class="proj-chips"><span class="chip teal">Nmap</span><span class="chip teal">Wireshark</span><span class="chip mute">Kali Linux</span><span class="chip mute">VMware</span><span class="chip lav">NSE Scripts</span></div>
         </div>
-        <a class="proj-link" href="https://diaz268.github.io/network-recon-nmap.pdf" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/Network_Reconnaissance_and_enumeration_using_Nmap.pdf" target="_blank">View Report →</a>
       </div>
 
       <div class="project-row soc reveal">
@@ -386,7 +386,7 @@
           <p class="proj-desc">Developed a suite of Bash scripts in Ubuntu to automate security-relevant monitoring tasks. Includes a login checker with active session details, a CPU load monitor with threshold-based alerting (Normal / Warning / Critical), a log error analyzer using grep, a live system monitor polling users and disk usage every 10 seconds, and file permission auditing. All managed with chmod inside a VMware Ubuntu environment.</p>
           <div class="proj-chips"><span class="chip teal">Bash</span><span class="chip teal">grep</span><span class="chip teal">awk</span><span class="chip mute">Ubuntu</span><span class="chip mute">VMware</span><span class="chip lav">Automation</span></div>
         </div>
-        <a class="proj-link" href="https://diaz268.github.io/bash-scripts-ubuntu.pdf" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/Bsh_scripts_on_Ubuntu.pdf" target="_blank">View Report →</a>
       </div>
 
       <div class="project-row soc reveal">
@@ -396,7 +396,7 @@
           <p class="proj-desc">Configured a secure file transfer pipeline between an Ubuntu server and a Windows client via WinSCP. Set up OpenSSH, transferred a test document, and captured live traffic with tcpdump. Filtered port 22 in Wireshark to confirm full encryption in transit — verifying no plaintext data was exposed on the wire.</p>
           <div class="proj-chips"><span class="chip teal">WinSCP</span><span class="chip teal">OpenSSH</span><span class="chip teal">tcpdump</span><span class="chip teal">Wireshark</span><span class="chip mute">Ubuntu</span></div>
         </div>
-        <a class="proj-link" href="https://diaz268.github.io/sftp-lab.pdf" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/Secure_file_transfer_using_SFTP.pdf" target="_blank">View Report →</a>
       </div>
 
       <div class="project-row soc reveal">
@@ -406,7 +406,7 @@
           <p class="proj-desc">Built and deployed a keylogger in a controlled VM lab to understand attacker methodology from a defensive perspective. Generated a payload with msfvenom using reverse TCP, set up a multi/handler listener, and established a Meterpreter session on a Windows target — studying payload delivery and post-exploitation to inform detection and response strategies.</p>
           <div class="proj-chips"><span class="chip teal">Metasploit</span><span class="chip teal">msfvenom</span><span class="chip mute">Meterpreter</span><span class="chip mute">Kali Linux</span><span class="chip mute">VMware</span></div>
         </div>
-        <a class="proj-link" href="https://diaz268.github.io/keylogger-lab.pdf" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/Keylogger_Portfolio_Project.pdf" target="_blank">View Report →</a>
       </div>
 
     </div>
@@ -439,7 +439,7 @@
           <p class="proj-desc">Configured users, groups, and RBAC policies in AWS following least privilege principles. Enforced MFA via Google Authenticator and applied custom password policies. Mapped IAM roles to real-world access requirements, demonstrating how cloud identity architecture directly limits the blast radius of compromised credentials.</p>
           <div class="proj-chips"><span class="chip teal">AWS IAM</span><span class="chip teal">MFA</span><span class="chip teal">RBAC</span><span class="chip mute">Cloud Security</span><span class="chip lav">Least Privilege</span><span class="chip lav">Access Control</span></div>
         </div>
-        <a class="proj-link" href="#" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/IAM_access_control_report.pdf" target="_blank">View Report →</a>
       </div>
 
       <div class="project-row soc reveal">
@@ -449,7 +449,7 @@
           <p class="proj-desc">Designed and executed a controlled phishing simulation targeting 6 university peers with informed consent. Crafted a realistic spear-phishing email impersonating Air University IT Support — applying authority, urgency, deceptive hyperlinks, and fear triggers. Measured a 66.7% susceptibility rate, tracked via Google Sheets. Documented all red flags (Gmail sender, fake domain, artificial deadline) and produced a full analysis of psychological manipulation techniques alongside preventive recommendations for individuals and institutions.</p>
           <div class="proj-chips"><span class="chip teal">Social Engineering</span><span class="chip teal">Phishing Simulation</span><span class="chip mute">Gmail</span><span class="chip mute">Google Forms</span><span class="chip lav">Security Awareness</span><span class="chip lav">Human Factor</span></div>
         </div>
-        <a class="proj-link" href="https://diaz268.github.io/phishing-awareness-report.pdf" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/Phishing_Awareness_Report.pdf" target="_blank">View Report →</a>
       </div>
 
       <div class="project-row soc reveal">
@@ -459,7 +459,7 @@
           <p class="proj-desc">Acted as a System Security Administrator responding to unauthorized login attempts. Implemented a full hardening configuration: advanced password policy, account lockout, audit policy with Event ID tracking, user rights restrictions, and security options. Verified all changes in Event Viewer, then independently designed tailored policies for three environments — banking workstation, university lab, and home PC — with justified reasoning for each.</p>
           <div class="proj-chips"><span class="chip teal">secpol.msc</span><span class="chip teal">Event Viewer</span><span class="chip mute">Windows 11</span><span class="chip lav">Security Hardening</span></div>
         </div>
-        <a class="proj-link" href="https://diaz268.github.io/windows-hardening.pdf" target="_blank">View Report →</a>
+        <a class="proj-link" href="https://diaz268.github.io/Security_Hardening_using_Local_Policies.pdf" target="_blank">View Report →</a>
       </div>
 
     </div>
@@ -479,7 +479,7 @@
           <p class="proj-desc">Led a 5-member team as CEO to design a full Information Assurance framework for a fictional nationwide oil marketing company with 350+ fuel stations. Defined the governance structure — directing CISO, CIO, COO, and BCP/HSE roles — and oversaw all 16 security policies including access control, incident response, insider threat prevention, and vendor management. Conducted a 7-risk assessment using Likelihood × Impact methodology and produced a complete Disaster Recovery Plan with defined RTOs and RPOs per system tier.</p>
           <div class="proj-chips"><span class="chip amber">ISO 27001</span><span class="chip amber">BCP / DRP</span><span class="chip amber">Risk Assessment</span><span class="chip amber">Governance</span><span class="chip mute">RTO / RPO</span><span class="chip mute">Incident Response</span></div>
         </div>
-        <a class="proj-link amber" href="https://diaz268.github.io/falconpetro-ia-framework.pdf" target="_blank">View Report →</a>
+        <a class="proj-link amber" href="https://diaz268.github.io/Falconpetro_IA_Framework.pdf" target="_blank">View Report →</a>
       </div>
 
     </div>
